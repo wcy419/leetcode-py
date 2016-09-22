@@ -6,8 +6,6 @@ class TreeNode(object):
 
 
 class Solution(object):
-
-
     def levelOrder(self, root):
         ans, level = [], [root]
         while root and level:
